@@ -5,7 +5,7 @@ import mysql as d
 code=0
 roomno=0
 def booking():
-    s='0123456789abcdefghifklmnopqrstuvwxyzABCDEFGHIJKLMONPQRSTUVWXYZ'
+    s='0123456789abcdefghifklmnopqrstuvwxyz'
     otp=""
     l=len(s)
     for i in range(8):
